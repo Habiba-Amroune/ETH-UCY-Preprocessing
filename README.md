@@ -12,30 +12,30 @@ Info: Video frame rate: 25fps (1 frame = 0.04s).
 
 In this repository you will find the Python script and preprocessed data where: <br />
 
-Data_Formated_<file name>.csv:     <br />    
-(meters if its from the ETH dataset)    <br />
-(pixels if its from the UCY dataset)    <br />
+Data_Formated_<file name>.csv:        (meters if its from the ETH dataset, and pixels if its from the UCY dataset)    <br />
 Extracted data from (obsmat.txt for ETH data, .VSP file from the UCY dataset) and adjusted to the desired format which is [FrameID, PedID, PosX,PosY]
   
 -------------------------------------------------------------------------------------------------------------------  
 
-Data_in_meters_<file name>.csv:         
-(meters)                                
+Data_in_meters_<file name>.csv:     (meters) <br />
+Data converted from image coordinates to world coordinates.                               
                                         
 --------------------------------------------------------------------------------------------------------------------
 
-interpolated_data_<file name>.csv       Interpolate data from Data_in_meters for each frame.
-(meters)                                
+interpolated_data_<file name>.csv    (meters) <br />                             
+Interpolate data from Data_in_meters for each frame.
 
 --------------------------------------------------------------------------------------------------------------------  
 
-Final_data_<file name>.csv              Extract interpolated_data at every 10 frames (2.5fps)            
-(meters)                                
+Final_data_<file name>.csv  <&nbsp; />  (meters)           
+Extract interpolated_data at every 10 frames (2.5fps)            
+                               
 
 --------------------------------------------------------------------------------------------------------------------
-UCY Preprocessing.ipynb                 Python scripts for the preprocessing steps for each dataset.
-ETH Preprocessing.ipynb
+UCY Preprocessing.ipynb,   ETH Preprocessing.ipynb: <br />
+Python scripts for the preprocessing steps for each dataset.
 
 --------------------------------------------------------------------------------------------------------------------
 KNIME Analytics platform workflow     A workflow for extracting data analytics and data cleaning.
+  
 --------------------------------------------------------------------------------------------------------------------
