@@ -5,14 +5,14 @@ Annotation files given in BIWI dataset (http://www.vision.ee.ethz.ch/en/datasets
 Info : Video frame rate: 2.5fps (6 frames = 0.04s)
 
 ------------------------------------------------------------------------------------------------------------------
-Annotation files given in crowds dataset (https://graphics.cs.ucy.ac.cy/research/downloads/crowd-data)
+Annotation files given in crowds dataset (https://graphics.cs.ucy.ac.cy/research/downloads/crowd-data) <br />
 Info: Video frame rate: 25fps (1 frame = 0.04s). 
 
 ------------------------------------------------------------------------------------------------------------------
 
-In this repository you will find the Python script and preprocessed data where:
+In this repository you will find the Python script and preprocessed data where: <br />
 
-Data_Formated_<file name>.csv:          Extracted data from (obsmat.txt for ETH data, .VSP file from the UCY dataset) 
+Data_Formated_<file name>.csv:         &nbsp; Extracted data from (obsmat.txt for ETH data, .VSP file from the UCY dataset) 
 (meters if its from the ETH dataset)    and adjusted to the desired format which is [FrameID, PedID, PosX,PosY]
 (pixels if its from the UCY dataset)    
 
