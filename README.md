@@ -2,7 +2,8 @@
 
 ------------------------------------------------------------------------------------------------------------------
 Annotation files given in BIWI dataset (http://www.vision.ee.ethz.ch/en/datasets/)
-INFO: Video frame rate: 2.5fps (6 frames = 0.04s). 
+Info : Video frame rate: 2.5fps (6 frames = 0.04s)
+
 ------------------------------------------------------------------------------------------------------------------
 Annotation files given in crowds dataset (https://graphics.cs.ucy.ac.cy/research/downloads/crowd-data)
 Video frame rate: 25fps (1 frame = 0.04s). 
