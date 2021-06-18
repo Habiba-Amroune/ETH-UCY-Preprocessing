@@ -6,7 +6,7 @@ Info : Video frame rate: 2.5fps (6 frames = 0.04s)
 
 ------------------------------------------------------------------------------------------------------------------
 Annotation files given in crowds dataset (https://graphics.cs.ucy.ac.cy/research/downloads/crowd-data)
-Video frame rate: 25fps (1 frame = 0.04s). 
+Info: Video frame rate: 25fps (1 frame = 0.04s). 
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -35,4 +35,6 @@ Final_data_<file name>.csv              Extract interpolated_data at every 10 fr
 UCY Preprocessing.ipynb                 Python scripts for the preprocessing steps for each dataset.
 ETH Preprocessing.ipynb
 
+--------------------------------------------------------------------------------------------------------------------
+KNIME Analytics platform workflow     A workflow for extracting data analytics and data cleaning.
 --------------------------------------------------------------------------------------------------------------------
