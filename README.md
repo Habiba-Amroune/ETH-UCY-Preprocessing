@@ -16,6 +16,7 @@ Data_Formated_<file name>.csv:     <br />
 (meters if its from the ETH dataset)    <br />
 (pixels if its from the UCY dataset)    <br />
 Extracted data from (obsmat.txt for ETH data, .VSP file from the UCY dataset) and adjusted to the desired format which is [FrameID, PedID, PosX,PosY]
+  
 -------------------------------------------------------------------------------------------------------------------  
 
 Data_in_meters_<file name>.csv:         
