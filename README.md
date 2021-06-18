@@ -15,16 +15,19 @@ In this repository you will find the Python script and preprocessed data where: 
 Data_Formated_<file name>.csv:      <br />   
 Extracted data from (obsmat.txt for ETH data, .VSP file from the UCY dataset) and adjusted to the desired format which is [FrameID, PedID, PosX,PosY]  <br />  
 (meters if its from the ETH dataset, and pixels if its from the UCY dataset)   
+  
 -------------------------------------------------------------------------------------------------------------------  
 
 Data_in_meters_<file name>.csv:    <br />  
 Data converted from image coordinates to world coordinates.  <br />                              
 (meters)                                        
+  
 --------------------------------------------------------------------------------------------------------------------
 
 interpolated_data_<file name>.csv:    <br />                           
 Interpolate data from Data_in_meters for each frame. <br />
 (meters)    
+  
 --------------------------------------------------------------------------------------------------------------------  
 
 Final_data_<file name>.csv:    <br />        
