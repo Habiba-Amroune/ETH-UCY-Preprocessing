@@ -12,10 +12,10 @@ Info: Video frame rate: 25fps (1 frame = 0.04s).
 
 In this repository you will find the Python script and preprocessed data where: <br />
 
-Data_Formated_<file name>.csv:         &nbsp; Extracted data from (obsmat.txt for ETH data, .VSP file from the UCY dataset) 
-(meters if its from the ETH dataset)    and adjusted to the desired format which is [FrameID, PedID, PosX,PosY]
-(pixels if its from the UCY dataset)    
-
+Data_Formated_<file name>.csv:     <br />    
+(meters if its from the ETH dataset)    <br />
+(pixels if its from the UCY dataset)    <br />
+Extracted data from (obsmat.txt for ETH data, .VSP file from the UCY dataset) and adjusted to the desired format which is [FrameID, PedID, PosX,PosY]
 -------------------------------------------------------------------------------------------------------------------  
 
 Data_in_meters_<file name>.csv:         
